@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    position: absolute;
+    top:30%;
+    background-color: white;
+}
+.text,.convert{
+    padding: 20px;
+}
+#text{
+    width: 500px;
+    height: 200px;
+}
+#convert{
+    width: 140px;
+    height: 50px;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#voice{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    color: black;
+}
